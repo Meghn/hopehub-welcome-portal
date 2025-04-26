@@ -3,18 +3,18 @@ import NavigationCard from '@/components/NavigationCard';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:20px_20px] bg-fixed">
-      <div className="max-w-2xl mx-auto px-4 py-12 space-y-12">
+    <div className="min-h-screen bg-gray-50">
+      <div className="max-w-2xl mx-auto px-4 py-8 space-y-8">
         <div className="text-center space-y-4 animate-fade-in">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-900">
             HopeHub
           </h1>
-          <p className="text-lg text-gray-600">
+          <p className="text-xl text-gray-700">
             Hi Friend! Tap any box below to get started
           </p>
         </div>
 
-        <div className="space-y-6">
+        <div className="space-y-4">
           <NavigationCard
             icon="shield"
             title="Report Something"
