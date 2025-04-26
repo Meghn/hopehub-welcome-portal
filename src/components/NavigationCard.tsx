@@ -17,26 +17,26 @@ const NavigationCard = ({ icon, title, description, route }: NavigationCardProps
   const getIcon = () => {
     switch (icon) {
       case 'shield':
-        return <Shield className="w-12 h-12 text-blue-700" />;
+        return <Shield className="w-12 h-12 text-[#7E69AB]" />;
       case 'gift':
-        return <Gift className="w-12 h-12 text-rose-700" />;
+        return <Gift className="w-12 h-12 text-[#9b87f5]" />;
       case 'target':
-        return <Target className="w-12 h-12 text-emerald-700" />;
+        return <Target className="w-12 h-12 text-[#6E59A5]" />;
     }
   };
 
   return (
     <Card
       onClick={() => navigate(route)}
-      className="p-6 text-center cursor-pointer transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 animate-fade-in bg-white border-2 border-gray-200"
+      className="p-6 text-center cursor-pointer transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 animate-fade-in bg-white border-2 border-[#E5DEFF] rounded-xl"
     >
       <div className="flex flex-col items-center gap-4">
-        <div className="rounded-full p-4 bg-gray-50">
+        <div className="rounded-full p-4 bg-[#D6BCFA]/20">
           {getIcon()}
         </div>
-        <h2 className="text-2xl font-semibold text-gray-900">{title}</h2>
-        <p className="text-lg text-gray-700 mb-4">{description}</p>
-        <span className="text-base font-medium text-gray-600 hover:text-gray-900">
+        <h2 className="text-2xl font-semibold text-[#1A1F2C]">{title}</h2>
+        <p className="text-lg text-[#8E9196] mb-4 text-center">{description}</p>
+        <span className="text-base font-medium text-[#8B5CF6] hover:text-[#6E59A5]">
           Tap to select
         </span>
       </div>
