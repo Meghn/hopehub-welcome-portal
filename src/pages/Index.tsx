@@ -16,10 +16,10 @@ const Index = () => {
 
         <div className="space-y-4">
           <NavigationCard
-            icon="shield"
-            title="Report Something"
-            description="Help keep everyone safe by letting us know if you see anything wrong."
-            route="/report"
+            icon="target"
+            title="My Points"
+            description="See what you've earned and what you can get."
+            route="/points"
           />
           <NavigationCard
             icon="gift"
@@ -28,10 +28,10 @@ const Index = () => {
             route="/work"
           />
           <NavigationCard
-            icon="target"
-            title="My Points"
-            description="See what you've earned and what you can get."
-            route="/points"
+            icon="shield"
+            title="Report Something"
+            description="Help keep everyone safe by letting us know if you see anything wrong."
+            route="/report"
           />
         </div>
       </div>
