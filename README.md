@@ -1,6 +1,6 @@
 
 # HopeHub
-
+SJHacks, **Track:** Homelessness, **Members:** Jun, Meghna, Shreya, Sohan
 ## Overview
 
 HopeHub is a mobile-first platform designed to empower digitally underserved and homeless communities by providing them simple, tangible ways to earn, track, and redeem HopePoints. The platform turns everyday positive actions — like completing microjobs, reporting safety incidents, or attending trainings — into HopePoints that can be redeemed for essential services such as food coupons, transportation tickets, and hygiene kits.
