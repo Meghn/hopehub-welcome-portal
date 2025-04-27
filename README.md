@@ -109,7 +109,7 @@ Task Completion Analytics
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/427dcbe5-e0f0-4b85-be24-cccf68483879
+**URL**: [https://lovable.dev/projects/427dcbe5-e0f0-4b85-be24-cccf68483879](https://hopehub-welcome-portal-34.lovable.app/auth)
 
 ## How can I edit this code?
 
@@ -117,7 +117,7 @@ There are several ways of editing your application.
 
 **Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/427dcbe5-e0f0-4b85-be24-cccf68483879) and start prompting.
+Simply visit the [Lovable Project](https://hopehub-welcome-portal-34.lovable.app/auth) and start prompting.
 
 Changes made via Lovable will be committed automatically to this repo.
 
@@ -169,7 +169,7 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/427dcbe5-e0f0-4b85-be24-cccf68483879) and click on Share -> Publish.
+Simply open [Lovable](https://hopehub-welcome-portal-34.lovable.app/auth) and click on Share -> Publish.
 
 ## Can I connect a custom domain to my Lovable project?
 
