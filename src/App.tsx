@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -11,6 +10,7 @@ import Work from "./pages/Work";
 import Report from "./pages/Report";
 import NotFound from "./pages/NotFound";
 import Admin from "./pages/Admin";
+import Mobile from "./pages/Mobile";
 
 const App = () => {
   // Create a client
@@ -29,6 +29,7 @@ const App = () => {
               <Route path="/work" element={<Work />} />
               <Route path="/report" element={<Report />} />
               <Route path="/admin" element={<Admin />} />
+              <Route path="/mobile" element={<Mobile />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </BrowserRouter>
